@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var dogecore = require('dogecore-lib');
+dogecore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = dogecore.P2P;
