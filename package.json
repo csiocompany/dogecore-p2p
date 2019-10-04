@@ -1,6 +1,6 @@
 {
   "name": "@csio.company/dogecore-p2p",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Interface to the dogecoin P2P network for dogecore",
   "author": "",
   "main": "index.js",
@@ -20,14 +20,14 @@
     "url": "https://github.com/csiocompany/dogecore-p2p.git"
   },
   "dependencies": {
-    "dogecore-lib": "git+https://github.com/csiocompany/dogecore-lib.git",
+    "@csio.company/dogecore-lib": "^0.13.21",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6",
 	"bcoin": "^1.0.2"
   },
   "devDependencies": {
-    "dogecore-build": "csiocompany/dogecore-build",
+    "@csio.company/dogecore-build": "^0.5.5",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
