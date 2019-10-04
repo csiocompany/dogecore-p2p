@@ -1,5 +1,5 @@
 {
-  "name": "dogecore-p2p",
+  "name": "@csio.company/dogecore-p2p",
   "version": "1.1.2",
   "description": "Interface to the dogecoin P2P network for dogecore",
   "author": "",
